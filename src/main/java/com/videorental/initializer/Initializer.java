@@ -28,8 +28,6 @@ public class Initializer {
         rentalService.setQuantityMap(getQuantityMap());
         rentalService.setStorageFilms(getStorageFilms());
         rentalService.removeFilm(0);
-
-        System.out.println(rentalService.getStorageFilms());
     }
 
     public Map<Integer, Integer> getQuantityMap() {

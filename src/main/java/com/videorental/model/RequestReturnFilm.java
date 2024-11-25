@@ -2,6 +2,7 @@ package com.videorental.model;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
+
 import java.util.List;
 
 /**
@@ -9,7 +10,7 @@ import java.util.List;
  */
 @Data
 @Accessors(chain = true)
-public class RequestFilm {
+public class RequestReturnFilm {
     private Integer traceId;
-    private List<FilmIdDuration> filmIdDurations;
+    private List<FilmIdReleaseId> filmIdReleaseIds;
 }
